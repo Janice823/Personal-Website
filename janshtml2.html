@@ -1,22 +1,25 @@
 <!doctype html>
-<link rel="stylesheet" href="css.css">
 <html>
    <head>
       <title>Jan's Website</title>
+      <!-- the stylesheet link goes in the <head> portion of the html page-->
+      <link rel="stylesheet" href="css.css">
    </head>
    <body>
-   <header>
-	<h1>About Me</h1>
-   </header>
-   <section>
-   <img src="img/Cat_eyes_2007-1.jpg" alt="picture of cat" class="center">
-   <p>Notable things about me:</p>
-   <ul>
-	<li>Has Trade Degree in IST</li>
-	<li>Originally from Lisbon, CT</li>
-   </ul>
-   </section>
-   <footer>
-   </footer>
+      <header>
+	      <h1>About Me</h1>
+      </header>
+      <section>
+         <!-- not a big deal, but it looks like best practice rule (per HTML validator) is to have a heading elment in every <section> see: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section -->
+         <img src="img/Cat_eyes_2007-1.jpg" alt="picture of cat" class="center">
+         <!-- love the cat image & see that it came from Wikimedia commons, which is good, attributing / citing the image source somewhere in your code or page might be helpful in case you publish then some day receive a take down notice and can't recall / find its origin. -->
+         <p>Notable things about me:</p>
+         <ul>
+	         <li>Has Trade Degree in IST</li>
+         	<li>Originally from Lisbon, CT</li>
+         </ul>
+      </section>
+      <footer>
+      </footer>
    </body>
 </html>
